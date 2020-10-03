@@ -1,0 +1,127 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+*::after,*::before{margin: 0;padding: 0;box-sizing: border-box;}
+
+.warp{
+    position: relative;
+}
+
+.header1{
+    width: 610px;
+    height: 650px;
+    border: 3px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top:300px;
+    transform: translateX(-50%);
+    background-color: rgb(35,140,201);
+}
+.header2{
+    width: 560px;
+    height: 550px;
+    border: 3px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-280px);
+    background-color: rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.eyes{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-30%);
+    width: 350px;
+}
+.eye{
+    border: 3px solid black;
+    width: 130px;
+    height: 170px;
+    border-radius: 50%;
+    margin-right: 0.5px;
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
+}
+.blackeye{
+    width: 35px;
+    height: 55px;
+    border: 1px solid black;
+    position: absolute;
+    border-radius: 50%;
+    bottom:35px;
+    background-color: #000;
+}
+.blackeye.left{
+    right: 25px;
+}
+.blackeye.right{
+    left: 25px;
+}
+.white{
+    width: 15px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left:1px;
+}
+.nose{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(176,2,24);
+    border:3px solid black;
+    position: absolute;
+    left: 175px;
+    top:170px;
+    border-radius: 50%;
+    top:145px;
+    transform: translateX(-50%);
+}
+.nosewh{
+    border:1px solid black;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 5px;
+    top:10px;
+}
+.nosece{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(92,23,32);
+    position: absolute;
+    left:50%;
+    bottom: -3px;
+    transform: translateX(-50%);
+}
+.bottom{
+    border: 3px solid black;
+    border-radius: 0 0 30px 30px;
+    width: 480px;
+    height: 55px;
+    background: linear-gradient(180deg, rgba(242,210,213,1) 0%, rgba(184,1,21,1) 50%, rgba(187,17,35,1) 50%, rgba(184,1,21,1) 100%);
+    position: absolute;
+    left: 50%;
+    top:515px;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+.dlgwhite{
+    width: 880px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top:565px;
+    transform: translateX(-50%);
+    background-color: #fff;
+}
+
+189,17,35
